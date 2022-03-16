@@ -1,0 +1,97 @@
+.tutoring {
+    margin: 20px;
+}
+
+.tutoring-title {
+    font-size: 36px;
+    padding: 10px;
+    color: #00458b;
+    font-weight: bold;
+}
+
+.tutoring-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 12px;
+}
+
+.tutoring-left {
+    align-items: center;
+}
+
+.tutoring-about {
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin: 20px;
+    box-shadow: 10px 10px #88ccee;
+}
+
+.tutoring-career-title {
+    font-size: 26px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.tutoring-description {
+    margin: 10px;
+}
+
+.tutoring-paragraph {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.tutoring-contact {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.tutoring-maxiMatma {
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin: 20px;
+    box-shadow: 10px 10px #88ccee;
+}
+
+.tutoring-maxiMatma-title {
+    font-size: 26px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.tutoring-maxiMatma-description {
+    margin: 10px;
+}
+
+.tutoring-maxiMatma-paragraph {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.tutoring-maxiMatma-img-wrapper {
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 30vh;
+    width: auto;
+}
+
+.tutoring-maxiMatma-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (width: 760px) {
+
+    .tutoring-maxiMatma {
+        margin: 6px;    
+    }
+
+    .tutoring-maxiMatma-img-wrapper {
+        width: 10px;
+        height: auto;
+    }
+}

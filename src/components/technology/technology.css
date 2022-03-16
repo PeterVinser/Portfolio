@@ -1,0 +1,103 @@
+.technology {
+    margin: 20px;
+}
+
+.technology-title {
+    font-size: 36px;
+    padding: 10px;
+    color: #00458b;
+    font-weight: bold;
+}
+
+.technology-description {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    box-shadow: 10px 10px #88ccee;
+}
+
+.technology-courses-title {
+    font-size: 26px;
+    margin: 20px;
+    margin-top: 30px;
+    color: #00458b;
+}
+
+.technology-courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.technology-course {
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    width: auto;
+    box-shadow: 6px 6px #88ccee;
+}
+
+.technology-course-title {
+    font-size: 25px;
+    min-height: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+.technology-course-img-wrapper {
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 160px;
+    margin: 10px;
+}
+
+.technology-course-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.technology-course-progress-wrapper {
+    margin: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.technology-course-progress-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    width: 90%;
+}
+
+@media screen and (max-width: 760px) {
+    .technology-courses {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .technology-course-title {
+        min-height: none;
+        padding: 2px;
+    }
+
+    .technology-course-img-wrapper {
+        height: 100px;
+        margin: 2px;
+    }
+
+    .technology-course-progress-wrapper {
+        margin: 2px;
+    }
+}

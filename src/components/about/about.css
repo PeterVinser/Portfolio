@@ -1,0 +1,87 @@
+.about {
+    margin: 20px;
+}
+
+.about-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 12px;
+}
+
+.about-title {
+    font-size: 36px;
+    padding: 10px;
+    color: #00458b;
+    font-weight: bold;
+}
+
+.about-description {
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 10px 10px #88ccee;   
+}
+
+.about-paragraph {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.about-assistant {
+    background-color: #f7f7f7;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 6px #88ccee;
+}
+
+.about-assistant-title {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-assistant-img-wrapper {
+    height: 200px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-assistant-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    height: 100%;
+}
+
+.about-assistant-paragraph {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.about-timeline {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 12px;
+}
+
+.about-timeline-year {
+    margin: 6px;
+    padding: 8px;
+    width: auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #f7f7f7;
+    box-shadow: 6px 6px #88ccee;
+}
+
+.about-timeline-year-title {
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.about-timeline-year-paragraph {
+    margin-bottom: 4px;
+}
