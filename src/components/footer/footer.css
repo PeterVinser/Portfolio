@@ -32,8 +32,19 @@
     font-size: 20px;
 }
 
-.footer-email {
-    padding: 5px;
+.footer-email-img-wrapper {
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 60px;
+}
+
+.footer-email-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    object-fit: contain;
 }
 
 .footer-contact-right {
@@ -44,7 +55,7 @@
 }
 
 .footer-social-item {
-    margin-right: 30px;
+    margin-right: 50px;
     color: #000;
     text-decoration: none;
     font-size: 40px;

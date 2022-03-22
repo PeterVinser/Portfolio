@@ -12,26 +12,28 @@ const Footer = () => {
                             {footer.emailTitle}
                         </div>
                         <div className="footer-email">
-                            {footer.email}
+                            <div className="footer-email-img-wrapper">
+                                <img src={footer.emailImg} alt="" className="footer-email-img"/>
+                            </div>
                         </div>
                     </div>
-                    <div className="footer-phone-wrapper">
+                    {/* <div className="footer-phone-wrapper">
                         <div className="footer-phone-title">
                             {footer.phoneTitle}
                         </div>
                         <div className="footer-phone">
                             {footer.phone}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="footer-contact-right">
                     <div className="footer-social">
                         <a href="https://github.com/PeterVinser" target="_blank" rel="noreferrer" className="footer-social-item">
                             <AiFillGithub/>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=100009351712245" target="_blank" rel="noreferrer" className="footer-social-item">
+                        {/* <a href="https://www.facebook.com/profile.php?id=100009351712245" target="_blank" rel="noreferrer" className="footer-social-item">
                             <AiFillFacebook/>
-                        </a>
+                        </a> */}
                         <a href="https://www.linkedin.com/in/piotr-okninski-00748321a/" target="_blank" rel="noreferrer" className="footer-social-item">
                             <AiFillLinkedin/>
                         </a>

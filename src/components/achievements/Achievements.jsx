@@ -3,7 +3,7 @@ import { achievements } from "../../constants/constants-achievements";
 
 const Achievements = () => {
     return (
-        <div className="achievements">
+        <div id="achievements" className="achievements">
             <div className="achievements-title">
                 {achievements.title}
             </div>

@@ -6,12 +6,12 @@ export const sections = [
     },
     {
         id: 2,
-        title: "Technology",
-        link: "#technology"
+        title: "Achievements",
+        link: "#achievements"
     },
     {
         id: 3, 
-        title: "Tutoring",
-        link: "#tutoring"
+        title: "Technology",
+        link: "#technology"
     }
 ];

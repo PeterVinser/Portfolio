@@ -19,9 +19,9 @@ const Header = () => {
                 <a href="https://github.com/PeterVinser" target="_blank" rel="noreferrer" className="header-social-item">
                     <AiFillGithub/>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=100009351712245" target="_blank" rel="noreferrer" className="header-social-item">
+                {/* <a href="https://www.facebook.com/profile.php?id=100009351712245" target="_blank" rel="noreferrer" className="header-social-item">
                     <AiFillFacebook/>
-                </a>
+                </a> */}
                 <a href="https://www.linkedin.com/in/piotr-okninski-00748321a/" target="_blank" rel="noreferrer" className="header-social-item">
                     <AiFillLinkedin/>
                 </a>
